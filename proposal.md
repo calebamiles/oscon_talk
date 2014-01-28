@@ -18,7 +18,3 @@
  - Cloud Computing
  - Tools and Techniques
 
-### Free Thought Zone
- - Idea for BOSH Logo as a shipping container crane
- - Really do some TDD C++ to compare with Go
- - Try and start 'meta-cloud' as a thing

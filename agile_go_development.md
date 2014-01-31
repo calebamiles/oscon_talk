@@ -15,5 +15,5 @@ Cloud Foundry has many moving parts, most of which were until recently written i
  * Test Driven Development methodologies in Go
  * Techniques for managing distribution of Go binaries
  * Integrating compiled Go binaries with Ruby collaborators
- * Managing Go library dependcies
+ * Managing Go library dependencies
  * Leveraging Go interfaces for cleaner and more extensible code

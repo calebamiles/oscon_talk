@@ -1,26 +1,24 @@
-### Description
+# Description
 
-BOSH provides the foundation of the CloudFoundry Platform as a Service by
-faciliating controlled interactions between applications, cloud infrastrures
-and operating systems. Through focusing on the interfaces between collaborating
+BOSH serves as the foundation of the Cloud Foundry Platform as a Service by
+creating a cloud operating system to facilitate controlled interactions 
+between application software and the infrastructure and operating system where
+the applicaiton is run. Through focusing on the interfaces between collaborating
 components and leveraging the strengths of Go, a large monolithic code base has
 been refactored into a collection of focused and interchangeable components. 
 
-### Abstract
+# Abstract
 
-CloudFoundry BOSH makes it possible to repeatably and reliably deploy software:
-from isolated ETCD or Riak clusters to the entire CloudFoundry Platform as a 
-Service which requires the federation of multiple clusters into a useful 
-service. In order to better facilitate the controlled interactions between 
-application software, the operating system and the infrastructure while also 
-empowering community extension and maintenance of BOSH, several core components
-of BOSH have either been extracted from the original code base or have been
-rewritten in Go. These changes have allowed us to replace tightly coupled Ruby
-collaborators with loosely coupled, tightly focused, and portable binaries. By
-adhering to the spirit of *NIX design principals we are creating the next
-generation operating system for the cloud.
+Cloud Foundry BOSH is a tool for reliably and repeatedly orchestrating large
+scale distributed services. In the past year BOSH has undergone significant 
+refactoring in order to expose the contracts between cloud infrastructures 
+and operating systems that BOSH requires as extendable and maintainable
+components which we like to think of as cloud device drivers. The *NIX design 
+philosophy of combining portable, tightly focused applications into a coherent 
+whole has even more relevance as computing continues to move towards distributed
+and virtualized resources. Follow along and explore:
 
- * Challenges in refactoring a production system.
- * Assembling a system by preferring interfaces over inheritance.
+ * The challenges in refactoring a production system.
+ * Creating a loosely coupled collection of components through interfaces
  * Writing future-resilient software by creating opportunities for community
    involvement.
